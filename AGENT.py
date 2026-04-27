@@ -88,8 +88,7 @@ model = ChatGroq(
     model="llama-3.3-70b-versatile",
     temperature=0.0,
     max_retries=2,
-    api_key="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"
-)
+    api_key="YOUR_GROQ_API_KEY"
 
 
 agent = create_agent(
