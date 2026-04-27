@@ -89,7 +89,7 @@ model = ChatGroq(
     temperature=0.0,
     max_retries=2,
     api_key="YOUR_GROQ_API_KEY"
-
+)
 
 agent = create_agent(
     model=model,
